@@ -30,6 +30,7 @@ public class Doctor {
 	@OneToMany(mappedBy = "doctor")
 	private List<CitaMedica> citaMedicas;
 	
+	// SET-GET
 	public Integer getId() {
 		return id;
 	}
